@@ -2,8 +2,8 @@
 
 if($_POST["SEND"]){  
 	$length = (int)$_POST["SIZE"];
-	if($length < 5 || $length > 25){
-		$message = "Введите число больше 5 и меньше 25";
+	if($length < 5 || $length > 15){
+		$message = "Введите число больше 5 и меньше 15";
 		echo "<script type='text/javascript'>
 		alert('$message');
 		history.back(-1);
